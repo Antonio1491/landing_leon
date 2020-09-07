@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+@import "base/fuentes";
+@import "base/generales";
+@import "base/botones";
+
+@import "componentes/header";
+@import "componentes/informacion";
+@import "componentes/beneficios";
+@import "componentes/precios";
+@import "componentes/cinta_socios";
+@import "componentes/chat";
+@import "componentes/footer";
+
+@import "layout/responsive";

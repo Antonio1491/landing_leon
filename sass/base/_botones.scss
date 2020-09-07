@@ -1,0 +1,50 @@
+.btn{
+  padding: 8px 20px; 
+  font-size: 14px; 
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+.btn_ver_video{
+  color:#06b5a3;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: Antonio bold;
+  font-size: 25px;
+  padding: 5px 40px;
+}
+.btn_ver_video:hover{
+  color:#ffffff;
+  border: 2px solid #06b5a3;
+  transition: 1s;
+}
+.btn_comprar{
+  color:white;
+  background: #ff2877;
+  border-radius: 20px;
+  font-family: "Antonio Bold";
+  font-size: 25px;
+  padding: 5px 40px;
+}
+.btn_comprar:hover{
+  background: #aa2556;
+  color: white;
+  transition: 1s;
+}
+.btn_unete{
+  background-color: #ff5e6e; 
+  color: white; 
+}
+.btn_unete:hover{
+  background-color: #ee4051; 
+  transition: 1s;
+}
+.btn_verde{
+  background-color: #6ABF4B;
+  color: white;
+}
+.btn_verde:hover{
+  background-color: #5baf3c;
+  transition: 1s;
+  color: white;
+}

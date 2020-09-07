@@ -1,0 +1,40 @@
+/*=========================================
+              F O O T E R
+=========================================*/
+footer hgroup h3,
+footer hgroup h2,
+footer hgroup h4
+{
+  color: white;
+  font-family: Antonio Bold;
+  margin: 0px;
+  padding: 0px;
+  
+}
+footer hgroup h2{
+  margin-bottom: -5px;
+}
+footer hgroup h3{
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+footer hgroup h4{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+footer hgroup h6{
+  font-size: 13px;
+  font-family: Antonio;
+  text-transform: uppercase;
+  color: white;
+}
+footer .redes a img{
+  height: 50px;
+}
+.nota{
+  font-size: 13px;
+}
+.dato_boleto{
+  color:white;
+  font-family: Avenir Bold;
+}

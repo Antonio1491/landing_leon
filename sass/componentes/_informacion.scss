@@ -1,0 +1,59 @@
+/*=========================================
+        I N F O R M A C I Ó N
+=========================================*/
+#informacion{
+  background-image: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+#informacion figure img{
+  height: 90px;
+  margin-bottom: 20px;
+}
+.resumen{
+  margin-bottom: 50px;
+}
+.resumen + p {
+  font-weight: bold;
+}
+.cuadro_informativo{
+  border-radius: 10px;
+  padding: 30px;
+  color: #1D0C65;
+}
+.cuadro_informativo h5{
+  font-family: "Avenir Medium";
+  text-align: center;
+  margin-bottom: 25px;
+}
+.cuadro_informativo ul{
+  margin-bottom: 25px;
+}
+.cuadro_informativo h5 + ul{
+  /* list-style: none; */
+  list-style-image: url("../img/paloma_rosa.png");
+  /* height: 10px; */
+}
+/* .cuadro_informativo ul li::before{
+  content: url(img/paloma_rosa.png);
+} */
+.cuadro_informativo h5 span{
+  font-family: Avenir Bold;
+}
+#incluye{
+  color: white;
+}
+#incluye hgroup h3{
+  text-transform: uppercase;
+}
+#incluye h4{
+  font-family: Avenir Bold;
+  font-size: 18px;
+}
+#incluye ul.items_congreso{
+  list-style-image: url(../img/paloma_verde.png);
+}

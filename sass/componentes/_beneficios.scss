@@ -1,0 +1,75 @@
+/*=========================================
+        B E N E F I C I O S
+=========================================*/
+.lista_beneficios{
+  margin-top: 30px;
+}
+.lista_beneficios span{
+  font-weight: bold;
+}
+.lista_beneficios p{
+  font-size: 14px;
+  line-height: 16px;
+}
+.item_beneficio{
+  height: 100px;
+}
+#beneficios hgroup,
+.lista_beneficios{
+  color: #1D0C65;
+}
+#beneficios figure img{
+  height: 120px;
+  margin-bottom: 20px;
+}
+.lista_beneficios img{
+  height: 80px;
+}
+#numeros{
+  color: white;
+}
+.content_numeros h4,
+.content_numeros h6{
+  font-family: "Avenir Bold";
+  text-align: center;
+  letter-spacing: 1px;
+}
+.content_numeros{
+  margin-top: 40px;
+}
+.content_numeros h4{
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+
+#asistentes h3{
+  font-family: "Avenir Bold";
+  color: #1D0C65;
+  margin-bottom: 30px;
+}
+#asistentes h5{
+  color: #1D0C65;
+  font-family: "Avenir Bold";
+}
+
+#testimonial figure img{
+  height: 120px;
+}
+#testimonial{
+  color: white;
+}
+#testimonial h4,
+#testimonial h5{
+  font-family: "Avenir Bold";
+}
+#testimonial h5{
+  margin-bottom: 0px;
+}
+#testimonial span + span{
+  font-family: "Antonio";
+}
+#testimonial p{
+  font-style: italic;
+  font-weight: bold;
+}

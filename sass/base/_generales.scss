@@ -1,0 +1,48 @@
+/* ==================================
+            G E N E R A L E S
+=====================================*/
+
+.bg_principal{
+  background-color: #1D0C65;
+}
+.bg_secundario{
+  background-color: #3280D4;
+}
+.bg_cielo{
+  background-color: #E2F3FB;
+}
+.bg_verde{
+  background-color: #6ABF4B;
+}
+.contenedor{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.titulo{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.titulo h3, 
+.titulo h2{
+  font-family: Avenir Bold;
+}
+.titulo h2{
+  font-size: 30px;
+}
+.titulo_cuadro{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Avenir Bold;
+  text-align: center;
+}
+.items_congreso li span{
+  font-weight: bold;
+}
+.cuadro_titulo{
+  padding: 20px 30px;
+  font-size: 22px;
+  color: white;
+  font-family: Avenir Bold;
+  letter-spacing: 1px;
+}
