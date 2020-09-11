@@ -29,8 +29,30 @@
 
 .info_open_house{
   margin-top: 60px;
-  p span {
+  p{
     color: $color_principal;
-    font-family: "Avenir Bold";
+    margin-bottom: 0;;
+    span {
+      font-family: "Avenir Bold";
+    }
+  }
+  p ~ p{
+    text-align: justify;
+    margin-top: 15px;;
+  } 
+  figure img{
+    width: 90%;
+  }
+ 
+}
+
+.footer_open_house{
+  color: white;
+  h5{
+    font-family: "Antonio Bold";
+    text-transform: uppercase;
+  }
+  p{
+    font-size: 18px;
   }
 }
