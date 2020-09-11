@@ -1,0 +1,35 @@
+.registro_open_house{
+  header{
+    background-color: $color-principal;
+    figure img{
+      height: 150px;
+      margin-bottom: 30px;
+    }
+    h4{
+      color: white; 
+      font-family: "Avenir Bold";
+    }
+  }
+  .texto-registrado{
+    width: 60%;
+    margin: 0 auto;
+    h6{
+      color: $color-principal;
+      font-family: "Avenir Bold";
+      span{
+        font-size: 12px;
+        color: grey;
+      }
+      
+    }
+  }
+  
+  .recurso{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: $color-azul-bajo;
+  }
+  footer{
+    background-color: $color-principal;
+  }
+}
