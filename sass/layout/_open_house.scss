@@ -1,0 +1,36 @@
+.open_hause{
+  color:white;
+  text-align: center;
+  h1{
+    font-family: "Avenir Bold";
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    line-height: 80px;
+  }
+  h3{
+    font-family: "Antonio Bold";
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+  h2{
+    font-family: "Avenir Bold";
+    letter-spacing: 1px;
+  }
+  hr{
+    border-color: #d0287f;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.info_open_house{
+  margin-top: 60px;
+  p span {
+    color: $color_principal;
+    font-family: "Avenir Bold";
+  }
+}

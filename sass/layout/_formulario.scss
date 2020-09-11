@@ -1,0 +1,28 @@
+#formulario_open_house .formulario{
+  color: white;
+}
+#formulario_open_house{
+  background-color: #e2f3fb;
+}
+.formulario{
+  background-color: #192b68;
+  padding: 40px 20px 0px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+form label{
+  color: white;
+  /* font-weight: bold; */
+  font-family: Avenir;
+}
+form input[type=submit]{
+  background-color: #c0cd36; 
+  color: #192b68;
+  font-family: Avenir;
+  letter-spacing: 1px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
