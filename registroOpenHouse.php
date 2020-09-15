@@ -34,8 +34,8 @@ foreach($data as $valor){
     </header>
     <section class="recurso text-center">
       <div class="texto-registrado "> 
-        <h6>Hemos enviado a: <?php echo $email. ","; ?> el enlace y la información necesaria para poder acceder a nuestro <strong>Open House.</strong><br>
-        <span>*Si no visualizas nuestro correo en la bandeja de entrada, recuerda rebisar la "Bandeja no deseado" y agraganos a tus contactos para recibir información en el futuro. </span></h6><br>
+        <h6>Hemos enviado a: <?php echo $email; ?> el enlace y la información necesaria para poder acceder a nuestro <strong>Open House.</strong><br>
+        <span>*Si no visualizas nuestro correo en la bandeja de entrada, recuerda revisar la "Bandeja no deseado" y agregarnos a tus contactos para recibir información en el futuro. </span></h6><br>
       </div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/f9ZxRjConh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="texto-registrado">

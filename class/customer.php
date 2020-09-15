@@ -24,9 +24,12 @@ class Customer extends Conexion{
             VALUES (null, '$email', '$nombre', '$apellido', '$edad', '$congreso')";
     $result = $this -> conexion_db -> query($sql);
 
-    if($result){
+    if($result)
+    {
+     
       $redireccion = $this->redireccion();
       return $redireccion;
+      
     }
     else{
       return $result = "Error al registrar";
@@ -47,7 +50,12 @@ class Customer extends Conexion{
   {
 
     if($this->congreso == "CPL2020"){
+
+      $correo = new Correos();
+      $correo -> registroOpenHouse($this->email);
+
       $url = "registroOpenHouse.php?email=".$this->email;
+      
       return $url;
     }
     else{

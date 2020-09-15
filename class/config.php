@@ -1,7 +1,7 @@
 <?php
 
 define('DB_HOST', 'localhost');
-// define('DB_USUARIO', 'u582611776_agg');
+// define('DB_USUARIO', 'u951310947_gral');
 define('DB_USUARIO', 'root');
 define('DB_CONTRA', '');
 // define('DB_CONTRA', 'Registros2020');
